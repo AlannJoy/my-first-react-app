@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <main>
-        <Title />
+        <Title content="My first content prop" />
       </main>
 
       <header className="App-header">
