@@ -1,17 +1,19 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Title from "./components/Title";
+
+// ...
 
 function App() {
   return (
     <div className="App">
+      <main>
+        <Title />
+      </main>
+
       <header className="App-header">
-        <h1>Welcome to Codaisseur!!!</h1>
-        <p>
-          {" "}
-          I feel completely scared about learning React, but also excited!!
-          Let's beggin!!
-        </p>
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -21,7 +23,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Crazy!!!
+          Learn React
         </a>
       </header>
     </div>
@@ -29,3 +31,4 @@ function App() {
 }
 
 export default App;
+// ...
