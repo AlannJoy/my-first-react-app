@@ -6,9 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Welcome to Codaisseur!!!</h1>
         <p>
           {" "}
           I feel completely scared about learning React, but also excited!!
+          Let's beggin!!
         </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
